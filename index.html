@@ -1,0 +1,174 @@
+<style>
+li {
+list-style-type:none;
+}
+header {
+width: 800px;
+height: 57px;
+border: solid 0px #000000;
+margin-top: 10px;
+margin: 10px auto;
+}
+#logo {
+margin: 10px;
+font-size: 30px;
+color: black;
+}
+
+nav {
+text-align: center;
+width: 800px;
+height: 90px;
+border: solid 0px #000000;
+margin: auto;
+}
+li{
+    display: inline;
+}
+.menu{
+    width:200px;
+    margin: 10px auto;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    font-family: KoreanFrenchTypewriter;
+
+}
+
+.hide{
+    height:190px;
+    position: absolute;
+    left: 640px;
+    display: none;
+    background-color: rgba(255,255,255,0.9);
+    font-family: KoreanFrenchTypewriter;
+}
+
+.hide a{
+    display: block;
+    color: rgba(116, 116, 116, 0.8);
+    padding: 10px;
+}
+.hide th{
+    width: 220px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.hide a:hover {
+    color: black
+}
+.nav:hover .hide {
+    display: block;
+}
+section {
+text-align: center;
+
+border: solid 0px #000000; 
+margin: 10px auto;
+}
+#image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+footer {
+width: 800px;
+height: 100px;
+border-top: solid 0px #000000;
+margin-top: 20px;
+border: solid 0px #000000; 
+margin: 10px auto;
+}
+#address {
+float: left;
+margin: 30px 0 0 20px;
+}
+#customer {
+float: right;
+margin: 30px 0 0 180px;
+padding-right: 20px;
+}
+
+
+@font-face {
+    font-family: 'KoreanFrenchTypewriter';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/KoreanFrenchTypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  a { text-decoration: none; color: black; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; }
+
+
+
+</style>
+
+<body id="page">
+<title>소설</title>
+<header>
+<center>
+<div id='logo'>
+    <a href="index.html">
+<img src="./img/nv.png">
+</a>
+</div>
+</center>
+</header>
+
+<nav class="nav">
+<ul>
+<div class="menu">소설이란</div>
+<div class="menu">소설의 장르</div>
+<div class="menu">소설의 작문</div>
+</ul>
+<div class="hide">
+    <table border=0>
+        <tr>
+            <th><a href="1.html" target="home">소설이란</a></th>
+            <th><a href="4.html" target="home">로맨스</a></th>
+            <th><a href="8.html" target="home">작문의 기초</a></th>
+        </tr>
+        <tr>
+            <th><a href="2.html" target="home">고전소설</a></th>
+            <th><a href="5.html" target="home">판타지</a></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th><a href="3.html" target="home">현대의 소설</a></th>
+            <th><a href="6.html" target="home">호러</a></th> 
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><a href="7.html" target="home">그 외</th>
+            <th></th>
+        </tr>
+    </table>
+</nav>
+
+<section>
+<iframe src="./img/book.gif" width="800" height="600" name="home" frameborder="0"></iframe>
+</section>
+
+<div class='clear'></div>
+<footer>
+    <pre>
+<div id='address'>
+글쓰기는 내면을 들여다보고 다가올 미래를 그려볼 좋은 기회다.
+그러나 몸과 마음에서 우러나오지 않고 풍부한 지식을 과시하기 위해 쓰는 글은 자신의 앞날에 걸림돌이 될 뿐이다.
+</div>
+<div id='customer'>
+-나카타니 아키히로
+</div>
+</pre>
+</footer>
+
+</body>
